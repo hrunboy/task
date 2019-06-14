@@ -1,6 +1,10 @@
+a{
+    text-decoration:none;
+}
+
 .login-panel{
     margin: 5vh 0 5vh 0;
-    height: 60vh;
+    height: 55vh;
     min-width: 100px;
 }
 
@@ -9,7 +13,7 @@
     min-width: 100px;
 }
 .login-panel .login-body{
-    height: 35vh;
+    height: 30vh;
 }
 
 .login-panel .login-footer{
