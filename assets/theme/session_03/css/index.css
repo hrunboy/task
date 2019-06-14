@@ -1,0 +1,18 @@
+.login-panel{
+    margin: 5vh 0 5vh 0;
+    height: 60vh;
+    min-width: 100px;
+}
+
+.login-panel .login-title{
+    background-color: #E1E5EC;
+    min-width: 100px;
+}
+.login-panel .login-body{
+    height: 35vh;
+}
+
+.login-panel .login-footer{
+    height: 15vh;
+    background-color: #E1E5EC;
+}
