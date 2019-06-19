@@ -1,0 +1,59 @@
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.page-content{
+    background-color: #F6EEE0;
+    padding: 2vh 0 2vh 0;
+}
+
+.learning-panel{
+    background-color: #2b3333;
+    border-radius:5px 0 0 5px;
+    height: auto;
+}
+
+.learning-list{
+    height: auto;
+}
+
+.learning-list .item{
+    line-height:7vh;
+}
+
+.item > a{
+    color: #757A7F;
+}
+
+.item :hover{
+    color: #6B7176;
+}
+
+.show-panel{
+    padding: 0;
+}
+
+.tech-item{
+    height: 50vh;
+}
+
+.tech-item img{
+    width:100%;
+	height:auto;
+}
+
+.tech-panel{
+    height: auto;
+}
+
+.tech-list{
+    height: auto;
+}
+
+.footer-content{
+    height: 10vh;
+}
