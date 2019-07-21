@@ -1,0 +1,31 @@
+<div class="header container-fluid">
+    <div class="row d-flex justify-content-between mt-1 mb-1">
+        <div class="d-flex justify-content-between align-self-center flex-fill">
+            <div class="desc d-flex col-3">
+                <button class="align-self-center mr-3" (click)="this.show()" title="主菜单">
+                    <i class="fa fa-bars fa-1x"></i>
+                </button>
+                <a class="align-self-center">
+                    <h2>Keep</h2>
+                </a>
+            </div>
+
+            <form class="col-8 d-flex align-items-center position-relative border-0">
+                <button class="float-left position-absolute rounded-circle" style="left: 1em" type="button"><i class="fa fa-search"></i></button>
+                <input type="text" class="form-control pl-5 border-0" placeholder="搜索">
+                <button class="float-right position-absolute rounded-circle" style="right: 1em" type="button"><i class="fa fa-close"></i></button>
+            </form>
+
+        </div>
+
+        <div class="d-flex justify-content-end col-5 flex-fill">
+            <button>
+                <i class="fa fa-refresh"></i>
+            </button>
+            <button>
+                <i class="fa fa-cog"></i>
+            </button>
+        </div>
+        
+    </div>
+</div>
